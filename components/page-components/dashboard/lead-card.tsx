@@ -2,19 +2,7 @@
 import { Card, CardContent } from '@/components/ui/card';
 import React from 'react';
 import ProgressData from './progress-data';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import {
-  Calendar,
-  ChevronDown,
-  Dot,
-  MessageSquare,
-  Sparkle,
-} from 'lucide-react';
+import { Calendar, ChevronDown, Dot, MessageSquare } from 'lucide-react';
 import { Avatar, AvatarImage } from '@/components/ui/avatar';
 import { AvatarFallback } from '@radix-ui/react-avatar';
 import { If, Then } from 'react-if';

@@ -10,8 +10,6 @@ import {
 import {
   ChartArea,
   ChevronDown,
-  Delete,
-  MoreHorizontal,
   MoreVertical,
   Plus,
   RefreshCw,

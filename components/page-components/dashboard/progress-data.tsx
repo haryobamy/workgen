@@ -11,8 +11,8 @@ export default function ProgressData() {
     { label: 'Leads', value: 75, color: 'bg-purple-100' },
   ];
 
-  const totalAchieved = progressData.reduce((acc, data) => acc + data.value, 0);
-  const achievedPercentage = Math.min((totalAchieved / totalTarget) * 100, 100);
+  // const totalAchieved = progressData.reduce((acc, data) => acc + data.value, 0);
+  //   const achievedPercentage = Math.min((totalAchieved / totalTarget) * 100, 100);
 
   return (
     <div className='space-y-2 w-full'>

@@ -7,7 +7,6 @@ import {
   UserPen,
 } from 'lucide-react';
 import React from 'react';
-import { Separator } from './separator';
 import { Avatar, AvatarFallback, AvatarImage } from './avatar';
 
 export default function TopHeader() {

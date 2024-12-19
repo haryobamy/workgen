@@ -10,19 +10,9 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from '@/components/ui/sidebar';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { ChevronDown, ChevronRight, LucideIcon, Plus } from 'lucide-react';
+import { ChevronRight, LucideIcon } from 'lucide-react';
 import { IconType } from 'react-icons/lib';
-import { If, Then, Else } from 'react-if';
-import Recent from './recent';
+
 import {
   Collapsible,
   CollapsibleContent,

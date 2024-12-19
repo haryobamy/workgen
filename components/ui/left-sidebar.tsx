@@ -1,13 +1,6 @@
 import React from 'react';
-import {
-  Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarGroup,
-  SidebarHeader,
-  SidebarTrigger,
-} from './sidebar';
-import { MessageSquare, Phone, RefreshCcw } from 'lucide-react';
+import { Sidebar, SidebarContent } from './sidebar';
+import { MessageSquare, Phone } from 'lucide-react';
 import { HiOutlineChatBubbleLeftRight } from 'react-icons/hi2';
 import { OfficeIconOutline } from './icons';
 

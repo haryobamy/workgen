@@ -5,15 +5,12 @@ import { cn } from '@/lib/utils';
 import { leadsData } from '@/lib/constant';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import {
-  Calendar,
   ChevronDown,
   Dot,
   CircleCheck,
-  MessageSquare,
   Medal,
   SendHorizontal,
   Pencil,
-  Sparkle,
   ChartPie,
   ThumbsDown,
   ThumbsUp,
@@ -122,12 +119,12 @@ export default function EngageModal({ isOpen, onClose, activeLead }: Props) {
                     <ul className='list-disc pl-5 space-y-2 text-sm'>
                       <li>
                         Jane is a <strong>key decision maker</strong> and was
-                        browsing <strong>`espresso machine`</strong> on First
-                        Coffee's website.{' '}
+                        browsing <strong>espresso machine</strong> on First
+                        Coffees website.
                         <sub className='bg-white p-0.5 text-[8px]'>1</sub>
                       </li>
                       <li>
-                        Multiple people at her company have report `slowness`
+                        Multiple people at her company have report slowness
                         during service requests{' '}
                         <sub className='bg-white p-0.5 text-[8px]'>2</sub>
                       </li>

@@ -1,9 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import {
-  SidebarInset,
-  SidebarProvider,
-  SidebarTrigger,
-} from '@/components/ui/sidebar';
+import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
 import AppSidebar from '@/components/ui/app-sidebar';
 import TopHeader from '@/components/ui/header';
 import LeftSidebar from '@/components/ui/left-sidebar';

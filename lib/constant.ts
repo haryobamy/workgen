@@ -1,15 +1,10 @@
 import {
-  AudioWaveform,
   Clock3,
-  Command,
   Frame,
   Home,
-  Inbox,
   Map,
   PieChart,
   Receipt,
-  Search,
-  Sparkles,
   User,
 } from 'lucide-react';
 import { BsPinAngle } from 'react-icons/bs';
