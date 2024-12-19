@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0b0908;
+    --card: #ffffff;
+    --card-foreground: #0b0908;
+    --popover: #ffffff;
+    --popover-foreground: #0b0908;
+    --primary: #1b1917;
+    --primary-foreground: #f9f9f8;
+    --secondary: #f5f5f4;
+    --secondary-foreground: #1b1917;
+    --muted: #f5f5f4;
+    --muted-foreground: #78706b;
+    --accent: #f5f5f4;
+    --accent-foreground: #1b1917;
+    --destructive: #ee4444;
+    --destructive-foreground: #f9f9f8;
+    --border: #e7e4e3;
+    --input: #e7e4e3;
+    --ring: #0b0908;
+    --chart-1: #e76e4f;
+    --chart-2: #299d8f;
+    --chart-3: #264753;
+    --chart-4: #e8c468;
+    --chart-5: #f4a361;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --background: #0b0908;
+    --foreground: #f9f9f8;
+    --card: #0b0908;
+    --card-foreground: #f9f9f8;
+    --popover: #0b0908;
+    --popover-foreground: #f9f9f8;
+    --primary: #f9f9f8;
+    --primary-foreground: #1b1917;
+    --secondary: #292524;
+    --secondary-foreground: #f9f9f8;
+    --muted: #292524;
+    --muted-foreground: #a7a19d;
+    --accent: #292524;
+    --accent-foreground: #f9f9f8;
+    --destructive: #7f1d1d;
+    --destructive-foreground: #f9f9f8;
+    --border: #292524;
+    --input: #292524;
+    --ring: #d5d2d0;
+    --chart-1: #2661d8;
+    --chart-2: #2db789;
+    --chart-3: #e88c30;
+    --chart-4: #af56db;
+    --chart-5: #e2366f;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
